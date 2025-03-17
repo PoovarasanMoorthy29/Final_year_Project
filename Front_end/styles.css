@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/scans_images.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+   
+  
+   
+}
+
+    
+#container{
+    background-color: rgb(113, 5, 5);
+    color:gold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:2px solid green;
+    border-radius: 50px;
+    margin:2% 20% 2%; 
+}
+
+h1{
+    font-size: 50px;  
+}
+
+#form #button{
+
+    background-color: rgb(95, 205, 95);
+    color:black;
+
+    font-size: large;
+    border:2px solid greenyellow;
+    border-radius: 50px;
+
+}
+
+#form input{
+    border:1px solid gold;
+    border-radius: 50px;
+    font-size: 25px;
+}
+#form  #file{
+    background-color: red;
+
+}
+@media only screen and  (maxwidth:500px){
+    body{
+        width:100%;
+        
+    }
+    #form{
+        width: 100%;
+    }
+    #form input {
+        width: 100%;
+    }
+    
+}
